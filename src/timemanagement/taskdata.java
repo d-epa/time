@@ -3,13 +3,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class timetable1 {
+public class taskdata {
 
 
-    public timetable1(String text) {
-    }
+    public taskdata(String text) {
 
-    public class time implements ActionListener {
+
+     class time implements ActionListener {
 
 
         JFrame frame = new JFrame();
@@ -40,7 +40,7 @@ public class timetable1 {
             if (e.getSource() == button) {
                 text = userIDfield.getText();
                 try {
-                    new timetable1(text);
+                    new taskdata(text);
 
                 } catch (Exception ex) {
                     throw new RuntimeException(ex);
@@ -51,5 +51,6 @@ public class timetable1 {
         }
     }
 
+}
 }
 
