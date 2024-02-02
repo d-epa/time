@@ -5,5 +5,5 @@ public class times {
         new timetable1("click");
     }
 }
-}
+
 
